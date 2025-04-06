@@ -1,8 +1,12 @@
-<header class="text-white z-10 flex justify-center jetbrains-mono-400 z-50">
-    <h1 class="text-center">
-        Sagar
+<header class="text-white z-10 flex  jetbrains-mono-400 z-50 items-center pt-11 px-52">
+    <div>
+        <h1 class="text-left text-4xl">
+            Sagar
+        </h1>
+    </div>
+    <div>
 
-    </h1>
+    </div>
 </header>
 
 <style>

@@ -12,6 +12,9 @@
 
     <Header></Header>
     <GridAndDotBackgrounds>
+
+
+
         <!--        Hero Section-->
         <Canvas>
             <T.AmbientLight color="#ffffff" intensity={0.2}/>
@@ -23,7 +26,7 @@
                     castShadow
             />
             <!--            <Robot position={[1.75,.3,0]} scale={0.8}></Robot>-->
-            <Bot position={[40.75,-10.3,-100]} scale={0.25}></Bot>
+            <Bot position={[30.75,-10.3,-100]} scale={0.25} rotation="{[0,-.35,0]}"></Bot>
             <T.PerspectiveCamera
                     makeDefault
                     position={[0, 1, 5]}
@@ -32,6 +35,11 @@
             </T.PerspectiveCamera>
         </Canvas>
     </GridAndDotBackgrounds>
+    <section class="text-white">
+        <div>Hi! I am </div>
+        <div>Sagar Mishra</div>
+        <h1>Software Engineer</h1>
+    </section>
 
 
 </section>
