@@ -13,7 +13,7 @@ Title: BOT NEIL ANIMATION By Oscar Creativo
   import { T } from '@threlte/core'
   import { useGltf, useGltfAnimations } from '@threlte/extras'
 
-  let { fallback, error, children, ref = $bindable(), ...props } = $props()
+  let { fallback=()=>"Could not load", error, children, ref = $bindable(), ...props } = $props()
 
   ref = new Group()
 

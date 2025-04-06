@@ -15,5 +15,4 @@ import Hero from "$lib/components/Hero.svelte";
 </section>
 
 <style>
-
 </style>

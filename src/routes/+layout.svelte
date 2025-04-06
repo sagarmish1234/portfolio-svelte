@@ -14,8 +14,5 @@
 </div>
 
 <style>
-    .app{
-        background-color: #0a0909;
-        min-height: 100vh;
-    }
+
 </style>
