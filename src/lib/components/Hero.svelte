@@ -2,6 +2,8 @@
     import {GridAndDotBackgrounds} from "$lib/components/ui/GridAndDotBackground/index.js";
     import Header from "./Header.svelte"
     import Bot from "$lib/models/robot_playground/bot.svelte"
+    import Resume from "$lib/assests/CV_Sagar_Mishra_2025.pdf"
+
     import {Canvas} from "@threlte/core";
     import {T} from '@threlte/core'
     import TypewriterEffect from "$lib/components/ui/TypewriterEffect/TypewriterEffect.svelte";
@@ -29,10 +31,20 @@
         </Canvas>
     </GridAndDotBackgrounds>
     <!--    Jumbotron-->
-    <section class="text-white jetbrains-mono-400 w-full px-52 pt-24 flex flex-col gap-8 mt-24">
-        <div class="text-5xl ">Hello I'm</div>
-        <div class="text-6xl">Sagar Mishra</div>
+    <section class=" jetbrains-mono-400 w-full px-52 pt-24 flex flex-col gap-8 mt-24">
+        <div class="text-3xl text-white ">Hello I'm</div>
+        <div class="text-6xl text-white">Sagar Mishra</div>
         <TypewriterEffect></TypewriterEffect>
+
+        <div class="mt-14">
+            <a download="CV_Sagar_Mishra_2025.pdf" target="_blank" href={Resume}>
+                <button
+                        class="hover:bg-[#00D492] transition duration-200 text-emerald-400 border px-5 py-4 rounded-4xl hover:text-black hover:cursor-pointer">
+                    Download CV
+                </button>
+            </a>
+            <span class="icon-[mdi-light--home] text-white"></span>
+        </div>
     </section>
 
 
@@ -46,7 +58,7 @@
     .jetbrains-mono-400 {
         font-family: "JetBrains Mono", monospace;
         font-optical-sizing: auto;
-        font-weight: 400;
+        font-weight: 600;
         font-style: normal;
     }
 
