@@ -29,8 +29,8 @@
         </Canvas>
     </GridAndDotBackgrounds>
     <!--    Jumbotron-->
-    <section class="text-white jetbrains-mono-400 w-full px-52 pt-24 flex flex-col gap-8 mt-32">
-        <div class="text-5xl ">Hello I am</div>
+    <section class="text-white jetbrains-mono-400 w-full px-52 pt-24 flex flex-col gap-8 mt-24">
+        <div class="text-5xl ">Hello I'm</div>
         <div class="text-6xl">Sagar Mishra</div>
         <TypewriterEffect></TypewriterEffect>
     </section>
