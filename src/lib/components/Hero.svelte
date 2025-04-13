@@ -9,7 +9,7 @@
     import TypewriterEffect from "$lib/components/ui/TypewriterEffect/TypewriterEffect.svelte";
 </script>
 
-<section>
+<section class="min-h-screen">
 
     <!--    <Header></Header>-->
     <GridAndDotBackgrounds>

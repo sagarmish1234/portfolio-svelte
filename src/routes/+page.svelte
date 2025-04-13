@@ -1,7 +1,8 @@
 <script lang="ts">
-import Hero from "$lib/components/Hero.svelte";
+    import Hero from "$lib/components/Hero.svelte";
+    import Education from "$lib/components/Education.svelte";
+    import BentoExample from "$lib/components/ShortProfile.svelte";
 </script>
-
 
 
 <svelte:head>
@@ -12,6 +13,8 @@ import Hero from "$lib/components/Hero.svelte";
 
 <section>
     <Hero></Hero>
+    <Education/>
+<!--    <BentoExample></BentoExample>-->
 </section>
 
 <style>
