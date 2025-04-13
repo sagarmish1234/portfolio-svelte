@@ -3,8 +3,8 @@
     import Header from "./Header.svelte"
     import Bot from "$lib/models/robot_playground/bot.svelte"
     import Resume from "$lib/assests/CV_Sagar_Mishra_2025.pdf"
-
     import {Canvas} from "@threlte/core";
+    import Icon from "@iconify/svelte";
     import {T} from '@threlte/core'
     import TypewriterEffect from "$lib/components/ui/TypewriterEffect/TypewriterEffect.svelte";
 </script>
@@ -36,14 +36,28 @@
         <div class="text-6xl text-white">Sagar Mishra</div>
         <TypewriterEffect></TypewriterEffect>
 
-        <div class="mt-14">
+        <div class="mt-14 flex items-center gap-10">
             <a download="CV_Sagar_Mishra_2025.pdf" target="_blank" href={Resume}>
                 <button
                         class="hover:bg-[#00D492] transition duration-200 text-emerald-400 border px-5 py-4 rounded-4xl hover:text-black hover:cursor-pointer">
                     Download CV
                 </button>
             </a>
-            <span class="icon-[mdi-light--home] text-white"></span>
+            <div class="border rounded-2xl h-10 w-10 border-[#00D492] flex items-center justify-center">
+                <a href="https://www.linkedin.com/in/sagar-mishra-76b990198/" target="_blank">
+                    <Icon icon="eva:linkedin-fill" width="24" height="24" class="text-[#00D492]"/>
+                </a>
+            </div>
+            <div class="border rounded-2xl h-10 w-10 border-[#00D492] flex items-center justify-center">
+                <a href="https://github.com/sagarmish1234" target="_blank">
+                    <Icon icon="ri:github-fill" width="24" height="24" class="text-[#00D492]"/>
+                </a>
+            </div>
+            <div class="border rounded-2xl h-10 w-10 border-[#00D492] flex items-center justify-center">
+                <a href="https://leetcode.com/u/sagarmish1234/" target="_blank">
+                    <Icon icon="tabler:brand-leetcode" width="24" height="24" class="text-[#00D492]"/>
+                </a>
+            </div>
         </div>
     </section>
 
