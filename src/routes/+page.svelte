@@ -1,7 +1,8 @@
 <script lang="ts">
     import Hero from "$lib/components/Hero.svelte";
     import Education from "$lib/components/Education.svelte";
-    import BentoExample from "$lib/components/ShortProfile.svelte";
+    import ShortProfile from "$lib/components/ShortProfile.svelte";
+    import Experience from "$lib/components/Experience/Experience.svelte";
 </script>
 
 
@@ -14,7 +15,8 @@
 <section>
     <Hero></Hero>
     <Education/>
-<!--    <BentoExample></BentoExample>-->
+    <Experience/>
+    <!--    <ShortProfile></ShortProfile>-->
 </section>
 
 <style>
